@@ -1,0 +1,353 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap');
+@font-face {
+    font-family: 'blacklisted';
+    src: url(fonts/blacklisted/Blacklisted.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+:root {
+   --black: #000000;
+   --darkblue: #23078C;
+   --blue: #1A12AD;
+   --lightblue: #0B21D6;
+   --normalblue: #1A40AB;
+    /*Fonts:
+    Main Content: font-family: 'Roboto', sans-serif;
+    Titles: font-family: 'Poppins', sans-serif;
+    */
+}
+:root {
+    --darkpurple: #6B005D;
+    --lightpurple: #EE47D8;
+    --lightpurple2: #EB01CD;
+    --darkpurple2: #6B2061;
+    --purple: #B8009F;
+}
+body p, span, a, button {
+    font-family: 'Roboto', sans-serif;
+}
+header {
+   width: 0;
+   height: 0;
+}
+#background {
+    background-image: url(images/astrounaut2.jpg);
+    background-position: left center;
+
+    height: 100vh;
+}
+.fa-solid {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    color: white;
+    font-size: 30px;
+}
+header h1 {
+    position: absolute;
+    top: 30px;
+    left: 80px;
+    font-family: 'blacklisted';
+    color: white;
+}
+h3 {
+    font-family: 'Poppins', sans-serif;
+}
+.iconboxe {
+    position: absolute;
+    top: 5px;
+    left: 1020px;
+}
+.icons i {
+    font-size: 20px;
+    margin-right: 30px;
+}
+.icons i:hover {
+    color: var(--lightpurple);
+}
+#intro {
+    position: absolute;
+    top: 30px;
+}
+#intro h2 {
+    position: relative;
+    top: 100px;
+    left: 50px;
+    color: white;
+    font-family: 'blacklisted';
+    font-size: 30px;
+}
+#intro p {
+    position: relative;
+    top: 155px;
+    left: 60px;
+    color: rgba(255, 255, 255, 0.787);
+    font-size: 20px;
+    font-weight: bolder;
+}
+#startofpage {
+    position: relative;
+    top: -40px;
+    text-align: center;
+    margin-top: 40px;
+    color: white;
+    background-image: linear-gradient(to bottom, var(--darkblue), var(--black));
+    padding: 100px;
+    height: 300px;
+
+}
+#startofpage h2 {
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    top: 30px;
+    margin-bottom: 15px;
+    font-size: xx-large;
+}
+#startofpage p {
+    position: relative;
+    top: 70px;
+    margin-bottom: 40px;
+    font-size: larger;
+}
+.btnv2 {
+    background-color: #1A40AB;
+    position: relative;
+    top: 80px;
+    border: none;
+    color: white;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+.btnv2:hover {
+    background-color: #0b74d6;
+    transition: 0.2s ease-in;
+    cursor: pointer;
+    border: 1px solid #0B21D6;
+}
+.btnv2:active {
+    background-color: #66adf0;
+    border: 1px solid lightblue;
+}
+#webdevarea {
+    background-image: url('images/Web\ Dev.jpg');
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    /*background-image: linear-gradient(to right, var(--darkblue), var(--lightblue));*/
+    position: relative;
+    top: -43px;
+    height: 500px;
+}
+.graywrap {
+    background-color: rgba(0, 0, 0, 0.541);
+    height: 500px;
+}
+h2 {
+    position: relative;
+    top: 40px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    color: white;
+}
+#webdevarea p {
+    position: relative;
+    top: 100px;
+    left: 10px;
+    color: white;
+    font-weight: bolder;
+}
+#seemore {
+    position: relative;
+    top: -60px;
+    left: 50px;
+    color: white;
+    background-color: #23078C;
+    width: 150px;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+}
+#seemore:hover {
+    background-color: #0b74d6;
+    cursor: pointer;
+    transition: 0.8s ease;
+}
+.addcart {
+    position: relative;
+    top: -59px;
+    left: 53px;
+    background-color: #23078C;
+    padding: 10px;
+    border-radius: 10px;
+}
+.addcart:hover {
+    background-color: #0b74d6;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+.fa-cart-arrow-down {
+    position: relative;
+    top: 2px;
+    left: -1px;
+    font-size: 20px;
+}
+#webdevarea div.box {
+    top: -50px;
+    left: 500px;
+}
+.img {
+    background-color: gray;
+    width: 220px;
+    height: 150px;
+    transform: translate(-70px, -70px);
+}
+.box {
+    display: inline-block;
+    position: relative;
+    top: 0;
+    left: 600px;
+    background-color: white;
+    width: 80px;
+    height: 138px;
+    padding: 80px;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+h3 {
+    position: absolute;
+    top: 180px;
+    left: 20px;
+}
+span {
+    position: absolute;
+    top: 220px;
+    left: 20px;
+    font-weight: bold;
+}
+.buybtn {
+  position: relative;
+  top: 20px;
+  left: -73px;
+}
+.buybtn {
+    width: 13vw;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    transition: .4s ease-in;
+    z-index: 1;
+}
+.buybtn::before,
+.buybtn::after{
+    position: absolute;
+    content: "";
+    z-index: -1;
+}
+.buybtn:hover {
+    background-color: var(--blue);
+    cursor: pointer;
+    box-shadow: 10px 10px 0px var(--lightblue);
+} 
+.fav {
+    position: absolute;
+    top: 250px;
+    left: 175px;
+    background-color: black;
+    color: white;
+    width: 55px;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+}
+.fa-heart {
+    font-size: 15px;
+    position: relative;
+    top: 1px;
+    left: 1px;
+}
+#htmlcss3 div.img {
+    background-image: url('images/HTMLCSS3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*#htmlcss3 .fav {
+    position: relative;
+    top: -13px;
+    left: 95px;
+}*/
+#javascript div.img {
+    background: gray url('images/JS1img.png') center center;
+    background-size: cover;
+}
+/*#javascript .fav {
+    position: relative;
+    top: -13px;
+    left: 95px;
+}*/
+#webframeworks {
+    margin-bottom: 200px;
+}
+#webframeworks h2 {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+#webframeworks div.box {
+    top: 80px;
+    left: 80px;
+}
+#proggraming {
+    background: var(--darkblue) url('images/code.jpg') left center fixed;
+    background-position: cover;
+    height: 800px;
+}
+#proggraming h2 {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    position: relative;
+    top: 40px;
+}
+#proggraming div.box {
+    top: 80px;
+    left: 80px;
+    margin-bottom: 30px;
+}
+#proggraming .buybtn:hover {
+    background-color: green;
+    box-shadow: 10px 10px 0px rgb(85, 253, 85);
+}
+#backendf {
+    margin-top: 40px;
+}
+#backendf h2 {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+#backendf div.box {
+    top: 80px;
+    left: 80px;
+}
+#devops {
+    margin-top: 300px;
+    background-image: linear-gradient(to right, var(--darkpurple), var(--lightpurple));
+    height: 100vh;
+}
+#devops h2 {
+    color:  white;
+}
+#devops div.box {
+    top: 80px;
+    left: 80px;
+}
